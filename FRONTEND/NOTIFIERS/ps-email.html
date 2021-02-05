@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="style1.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <p>Someone asked for password reset for email {{ email }}.</p><br>
+     Follow the link below:<br>
+
+{{ protocol}}://{{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}
+</body>
+</html>
