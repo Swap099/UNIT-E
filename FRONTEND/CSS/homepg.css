@@ -24,10 +24,15 @@ body{
 }
 .navbar-brand{
    font-weight: bold;
-   color: yellow;
+   color: orange;
    font-size: 5rem;
-   
+   font-family: 'Carter One', cursive;
 }
+
+.nav-br{
+	color: yellow;
+}
+
 
 /*.................................................................................*/
 
@@ -86,7 +91,7 @@ body{
 	margin:auto;
 	text-align: center;
 	margin-top:1rem; 
-	margin-bottom:2.5rem;
+	margin-bottom:4.5rem;
 	background-color: yellow;
 	border-radius: 35px;
 	
@@ -122,13 +127,13 @@ body{
     	max-width: 60%;
     	padding-top: 3rem;
     	padding-bottom: 5rem;
-    	font-size: 1.9rem;
-    	
+    	font-size: 2.4rem;
+    	line-height: 1.9;
     }
   
 
 #testimonial{
-	margin:10% auto 2%;
+	margin:20% auto 4%;
 }
 
 .card{
@@ -137,8 +142,10 @@ body{
 
 .card-text{
 	color:#1a0f00;
-	font-size: 1.4rem;
+	font-size: 2rem;
 	text-align: center;
+	padding-bottom: 1.6rem;
+	padding-top: 1rem;
 }
 
 #footer{
